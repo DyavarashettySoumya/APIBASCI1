@@ -5,10 +5,6 @@ Y
 )src/test/java/resources/global.properties,c/0/c0a7b66ea8cde7580fb0656743aec4e8a70dce2a
 R
 "src/test/java/resources/Utils.java,5/d/5db36570e9b1a50439a79de48c6e33b65aa88646
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-^
-.src/test/java/cucumber/Options/TestRunner.java,9/2/9211b564a8d09023bb8a345eeb3a29eb231d7041
 W
 'src/main/java/bdd/APIFramework/App.java,5/a/5a9c082bf2bba24878fe7ba2ead7287fc2ef5b6e
 ;

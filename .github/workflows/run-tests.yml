@@ -37,3 +37,15 @@ jobs:
         with:
           name: cucumber-reports
           path: target/cucumber-reports
+
+      - name: Run tests with Maven
+        run: mvn clean test
+
+      - name: Generate Cucumber HTML Report
+        run: mvn verify
+
+      - name: Archive HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: target/cucumber-html-reports
